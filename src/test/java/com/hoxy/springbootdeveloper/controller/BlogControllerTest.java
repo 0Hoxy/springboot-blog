@@ -44,7 +44,7 @@ class BlogControllerTest {
         blogRepository.deleteAll();
     }
 
-    @DisplayName("addPost: 블로그에 글 추가에 성공하기")
+    @DisplayName("addPost: 블로그에 글 추가에 성공하기") //성공
     @Test
     public void addPost() throws Exception {
         //given, given에 대해서 설명 달기
